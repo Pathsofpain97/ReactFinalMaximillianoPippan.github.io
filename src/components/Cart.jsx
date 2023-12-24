@@ -156,7 +156,7 @@ export const Cart = () => {
                     />
                 </Form.Group>
 
-                <Button variant="warning" onClick={sendOrder}>
+                <Button className="mb-3" variant="warning" onClick={sendOrder}>
                     Comprar
                 </Button>
             </Form>
