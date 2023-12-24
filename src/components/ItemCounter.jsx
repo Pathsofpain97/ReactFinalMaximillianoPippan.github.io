@@ -22,7 +22,7 @@ export const ItemCounter = ({ onAdd, stock, initial }) => {
         <div className="resta" onClick={handleDecreaseCount}>
           ➖
         </div>
-        <input type="text" defaultValue={count} readOnly />
+        <input type="text" defaultValue={count} />
         <div className="suma" onClick={handleIncreaseCount}>
           ➕
         </div>
