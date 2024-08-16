@@ -13,11 +13,13 @@
 .resta{
     cursor: pointer;
     font-size: 2rem;
+    margin-left: 1rem;
 }
 
 .suma{
     cursor: pointer;
     font-size: 2rem;
+    margin-right: 1rem;
 }
 
 .eliminarc{

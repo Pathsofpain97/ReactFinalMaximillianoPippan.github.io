@@ -22,7 +22,7 @@ export const ItemCounter = ({ onAdd, stock, initial }) => {
     <>
       <Container>
       <div className="containerc mb-4">
-        <div className="ms-3 resta" onClick={handleDecreaseCount}>
+        <div className="resta" onClick={handleDecreaseCount}>
           ➖
         </div>
         <input type="number" value={count} readOnly className="input-no-spinner"/>
