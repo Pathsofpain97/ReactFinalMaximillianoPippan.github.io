@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bbody{
+    background-color: #121212;
+}
+
+.resta{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.suma{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.eliminarc{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.navbar{
+    background-color: #0f0f0f;
+}
+
+.logo:hover{
+    filter: drop-shadow(0px 0px 16px rgb(255, 0, 170));
+    transition: 2s;
+}
+
+.me-auto {
+    font-family: 'Poppins', sans-serif;
+	font-size: 1.6rem;
+	font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-block: 3rem;
+}
+
+.linkc{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 3.2rem;
+}
+
+.input-no-spinner::-webkit-inner-spin-button,
+.input-no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Asegúrate de que no haya margen residual */
+}
+
+/* Oculta los botones de incremento/decremento en Firefox */
+.input-no-spinner {
+  -moz-appearance: textfield;
+  appearance: textfield; /* Propiedad estándar para otros navegadores */
+}
+
+.linkc .numero{
+    margin-left: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.containerc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerc .btn{
+    margin-left: 20px;
+}
+
+.linkc .numero:hover{
+    transition: 1.2s;
+    color: rgb(252, 105, 215);
+}
+
+.me-auto a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.me-auto a:hover{
+    color: rgb(252, 105, 215);
+    transition: 2s;
+}
+
+.container > span {
+    color: #ccff00;
+    padding-left: 0.8rem;
+    font-size: 2.2rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 75, 216);
+    text-decoration-thickness: 0.2rem;
+}
+
+.container > h1 {
+    padding-top: 40px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.cv{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.pc .pct{
+    text-align: center;
+}
+
+.pc .pctx1{
+    padding-top: 40px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fl{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dimg .img{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    max-width: 90%;
+}
+
+.fl{
+    font-size: 2rem;
+}
