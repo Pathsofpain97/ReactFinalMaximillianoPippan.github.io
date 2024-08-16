@@ -67,7 +67,7 @@ export const Cart = () => {
 
 
     if (!items.length){
-        return <Container className='mt-5 text-center'>
+        return <Container className='mt-5 mb-4 text-center'>
             <h2 className="cv">Carrito Vacio😱</h2>
             <button className="btn btn-light mt-3" onClick ={()=> navigate("/")}>Volver a la Home</button>
             </Container>;
