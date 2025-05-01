@@ -1,5 +1,6 @@
 Aca esta la page de mi APP https://react-final-maximilliano-pippan-github-io.vercel.app/ espero que les guste! :D
 
+Todas las imagenes utilizadas en el proyecto son para fines artisticos y educativos, no existe fines de lucro con ellas ni con la pagina en si misma. 
 
 # React + Vite
 
