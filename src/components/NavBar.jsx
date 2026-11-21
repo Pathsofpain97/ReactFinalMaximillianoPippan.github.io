@@ -16,8 +16,8 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-light" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto navbar-links">
-          <NavLink to="category/Glaceadas">Glaceadas</NavLink>
-          <NavLink to="category/Glaceadas Topping">Glaceadas Topping</NavLink>
+          <NavLink to="category/Glaseadas">Glaseadas</NavLink>
+          <NavLink to="category/Glaseadas Topping">Glaseadas Topping</NavLink>
           <NavLink to="category/Rellenas">Rellenas</NavLink>
           <NavLink to="category/Bebidas">Bebidas</NavLink>
           <NavLink to="category/Café">Café</NavLink>

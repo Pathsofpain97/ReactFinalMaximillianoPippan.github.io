@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.hamburger-list {
+.donut-list {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -13,32 +13,32 @@
   text-align: center;
 }
 
-.hamburger {
+.donut {
   width: max-content;
   height: max-content;
 }
 
-.hamburger .card{
+.donut .card{
   background-color: #f9d4e9;
 }
 
-.hamburger .img{
+.donut .img{
   box-shadow: 12px 10px 30px #000000;
 }
 
-.hamburger .ct{
+.donut .ct{
   font-size: 1.2rem;
   font-weight: bold;
   color: #000;
 }
 
-.hamburger .ctx1{
+.donut .ctx1{
   font-size: 1.1rem;
   color: #aa14d0;
   font-weight: bold;
 }
 
-.hamburger .ctx2{
+.donut .ctx2{
   font-size: 1.2rem;
   font-weight: bold;
 }

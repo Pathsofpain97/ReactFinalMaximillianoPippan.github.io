@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { Item } from "./Item";
 import { getFirestore, getDocs, collection } from 'firebase/firestore';
 
-import '../styles/hamburger.css';
+import '../styles/donut.css';
 
 export const ItemListContainer = (props) => {
     const { id } = useParams();
@@ -29,7 +29,7 @@ export const ItemListContainer = (props) => {
     return (
         <Container className='mt-4'>
             <h1 className="text-center mb-4">{props.greeting}</h1>
-            <div className="hamburger-list">
+            <div className="donut-list">
                 {
                     products.map(item => <Item key={item.id} item={item} />)
                 }
